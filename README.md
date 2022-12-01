@@ -12,33 +12,33 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/yashoswalyo/MERGE-BOT?color=red)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yashoswalyo/MERGE-BOT)
 
-An Telegram Bot By [Yash Oswal](https://t.me/yashoswalyo) To Merge multiple Videos in Telegram into single video. <br>
-Bugs should be reported at: [Telegram Group](https://t.me/yo_codes_support)
+Un bot de Telegram por [Yash Oswal] (https://t.me/yashoswalyo) para fusionar múltiples videos en Telegram en un solo video. <br>
+Los errores deben informarse en: [Telegram Group](https://t.me/yo_codes_support)
 
-```diff
-- TODO's:
-+ Add ability to edit metadata of exported video
+```diferencia
+- TODO:
++ Agregar capacidad para editar metadatos de video exportado
 
-- FEATURES:
-+ (new) Option to add multiple audio tracks to telegram video
-+ (new) Option to add multiple subtitles to telegram video
-+ Upload Files to Drive (Send your rclone config to bot)
-#  1. Send your rclone config to bot.
-#  2. Then send videos to merge, after you tap "Merge Now", upload to drive option will available.
-+ Merged video preserves all streams of the first video you send (i.e. all audiotracks/subtitles)
+- CARACTERISTICAS:
++ (nuevo) Opción para agregar múltiples pistas de audio al video de Telegram
++ (nuevo) Opción para agregar múltiples subtítulos al video de Telegram
++ Subir archivos a Drive (envíe su configuración de rclone al bot)
+# 1. Envía tu configuración de rclone al bot.
+# 2. Luego envíe videos para fusionar, después de tocar "Fusionar ahora", estará disponible la opción de cargar a la unidad.
++ El video combinado conserva todas las secuencias del primer video que envía (es decir, todas las pistas de audio/subtítulos)
 
-+ Merge Upto 10 videos in one 
-+ Upload as document/video 
-+ Custom thumbnail support
-+ Users can login to bot using password
-+ Owner can broadcast message to all users
-+ Log Channel to store all merged videos
++ Combina hasta 10 videos en uno
++ Subir como documento/video
++ Soporte de miniaturas personalizadas
++ Los usuarios pueden iniciar sesión en el bot usando una contraseña
++ El propietario puede transmitir mensajes a todos los usuarios
++ Log Channel para almacenar todos los videos combinados
 
 ```
-## Deploy Tutorial : 
+## Tutorial de implementación:
 [![Watch the video](https://img.youtube.com/vi/H-xVk_4zccs/hqdefault.jpg)](https://youtu.be/H-xVk_4zccs)
 
-## Deploy(at your own risk) :
+## Implementar (bajo su propio riesgo):
 <p><a href="https://heroku.com/deploy?template=https://github.com/yashoswalyo/MERGE-BOT"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 ### OR
@@ -49,33 +49,33 @@ Add `HEROKU_APP_NAME` <br>
 Add `CONFIG_FILE_URL` <br>
 Goto `Actions > Manual Deploy To Heroku > Run Workflow`
 
-### OR
-Coming soon
-## Tutorial to get MongoDB URI:
+### O
+Próximamente, en breve, pronto
+## Tutorial para obtener la URI de MongoDB:
 [![Watch the video](https://img.youtube.com/vi/OfQ7xxMylV4/hqdefault.jpg)](https://youtu.be/OfQ7xxMylV4)
 
 
-## Config File Variables :
-1. `TELEGRAM_API` : User Account Telegram API_ID, get it from my.telegram.org
-2. `API_HASH` : User Account Telegram API_HASH, get it from my.telegram.org
-3. `BOT_TOKEN` : Your Telegram Bot Token, get it from @Botfather XD
-4. `OWNER`: Enter bot owner's ID
-5. `OWNER_USERNAME`: User name of bot owner
-6. `DATABASE_URL`: Enter your mongodb URI
-7. `PASSWORD`: Enter password to login bot
-8. `LOGCHANNEL`: Log channel will store all users merged videos ("-100" + "channel Id")
-9. `USER_SESSION_STRING`: Premium account session string to upload upto 4GB (requires `LOGCHANNEL`)
+## Variables del archivo de configuración:
+1. `TELEGRAM_API`: cuenta de usuario Telegram API_ID, obténgalo de my.telegram.org
+2. `API_HASH`: cuenta de usuario Telegram API_HASH, obténgalo de my.telegram.org
+3. `BOT_TOKEN`: su token de bot de Telegram, consígalo de @Botfather XD
+4. `PROPIETARIO`: Ingrese la identificación del propietario del bot
+5. `OWNER_USERNAME`: nombre de usuario del propietario del bot
+6. `DATABASE_URL`: Ingrese su URI mongodb
+7. `CONTRASEÑA`: ingrese la contraseña para iniciar sesión en el bot
+8. `LOGCHANNEL`: el canal de registro almacenará todos los videos combinados de los usuarios ("-100" + "ID del canal")
+9. `USER_SESSION_STRING`: cadena de sesión de cuenta Premium para cargar hasta 4 GB (requiere `LOGCHANNEL`)
 
 
 ## Commands (add via @botfather) :
 ```
-start - Start The Bot
-extract - Extract audios/subtitles from telegram media
-showthumbnail - Shows your thumbnail
-deletethumbnail - Delete your thumbnail
-settings - User Settings to manage different modes
-help - How to use Bot
-about - About the bot
+start - Iniciar el bot
+extract - Extrae audios/subtítulos de Telegram Mediaa
+showthumbnail - Muestra tu miniatura
+deletethumbnail - Elimina tu miniatura
+settings - Configuración de usuario para administrar diferentes modos
+help - Cómo usar Bot
+about - Sobre el bot
 login - Access bot
 ban - (admin only) Ban any user
 unban - (admin only) Unban any user
@@ -95,23 +95,23 @@ $ pip3 install -U -r requirements.txt
 $ bash start.sh
 ```
 
-## License
+## Licencia
 ```
-Merge Bot, Telegram Video Merge Bot
-Copyright (c) 2021  Yash Oswal <https://github.com/yashoswalyo>
+Bot de combinación, Bot de combinación de video de Telegram
+Derechos de autor (c) 2021 Yash Oswal <https://github.com/yashoswalyo>
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Este programa es software libre: puedes redistribuirlo y/o modificar
+bajo los términos de la Licencia Pública General GNU Affero publicada por
+la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+(a su elección) cualquier versión posterior.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+Este programa se distribuye con la esperanza de que sea útil,
+pero SIN NINGUNA GARANTIA; sin siquiera la garantía implícita de
+COMERCIABILIDAD o IDONEIDAD PARA UN FIN DETERMINADO. Ver el
+Licencia pública general GNU Affero para obtener más detalles.
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
+Debería haber recibido una copia de la licencia pública general GNU Affero
+junto con este programa. Si no, consulte <https://www.gnu.org/licenses/>
 ```
 
 ## Credits
